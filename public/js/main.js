@@ -12,7 +12,7 @@ async function renderList() {
       var editBtn = document.createElement("button");
 
       li.className = "items";
-      deleteBtn.className = "delete btn btn-dark";
+      deleteBtn.className = "delete btn ";
       editBtn.className = "edit btn btn-info";
       editBtn.id = elem.id;
       deleteBtn.id = elem.id;
@@ -29,7 +29,7 @@ async function renderList() {
       li.appendChild(span3);
 
       li.appendChild(deleteBtn);
-      li.appendChild(editBtn);
+      //li.appendChild(editBtn);
       list.appendChild(li);
     });
   } catch (e) {
