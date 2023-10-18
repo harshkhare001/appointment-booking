@@ -1,10 +1,14 @@
+body{
+  background-image: url('../images/1.jpeg');
+}
+
 h1 {
     padding-top: 10px;
   }
   
   #container {
     text-align: center;
-    margin: 10% 30%;
+    margin: 5% 30%;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     border: 2px solid #3a3131;
     font-weight: bold;
@@ -13,16 +17,31 @@ h1 {
   }
   
   #history {
-    width:45%;
-    margin: 10% 30%;
+    width:40%;
+    margin: 0 30%;
     border: 2px solid #3a3131;
     font-weight: bold;
+    background-color: pink;
   }
   
   ul {
     text-align: left;
+    padding: 5px;
   }
   
   li:first-child {
     margin-right: 10px;
   }
+.delete{
+  margin-right: 2px;
+  float: inline-end;
+  float: right;
+  height: 19px;
+  font-size: 10px;
+  background-color: #3a3131;
+  color: aliceblue;
+}
+
+li{
+  padding-top: 5px;
+}
